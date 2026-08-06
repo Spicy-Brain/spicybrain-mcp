@@ -1,0 +1,18 @@
+{
+  "name": "spicybrain",
+  "owner": {
+    "name": "Spicy Brain",
+    "url": "https://github.com/Spicy-Brain"
+  },
+  "description": "Official Claude plugins for SpicyBrain.",
+  "plugins": [
+    {
+      "name": "spicybrain",
+      "displayName": "SpicyBrain",
+      "source": "./plugins/spicybrain",
+      "description": "Manage SpicyBrain projects, tasks, and reminders from Claude.",
+      "category": "productivity",
+      "tags": ["productivity", "tasks", "reminders", "mcp"]
+    }
+  ]
+}

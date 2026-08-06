@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "spicybrain",
+  "displayName": "SpicyBrain",
+  "version": "0.1.0",
+  "description": "Manage SpicyBrain projects, tasks, and reminders from Claude.",
+  "author": {
+    "name": "Spicy Brain",
+    "url": "https://github.com/Spicy-Brain"
+  },
+  "homepage": "https://github.com/Spicy-Brain/SpicyBrainClaudeMcp",
+  "repository": "https://github.com/Spicy-Brain/SpicyBrainClaudeMcp",
+  "license": "MIT",
+  "keywords": ["spicybrain", "productivity", "tasks", "reminders", "mcp"]
+}

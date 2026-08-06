@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "spicybrain": {
+      "type": "http",
+      "url": "${SPICYBRAIN_MCP_URL:-https://collene-biramous-lesli.ngrok-free.dev/mcp/spicybrain}"
+    }
+  }
+}
