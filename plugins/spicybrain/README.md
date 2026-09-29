@@ -1,19 +1,24 @@
 # SpicyBrain plugin
 
-This plugin connects Claude to the hosted SpicyBrain MCP server and provides workflow guidance for projects, tasks, and reminders.
+Connects Claude Code or Codex to the SpicyBrain MCP server at `https://spicybrain.help/mcp` and adds a skill that teaches the model how to use SpicyBrain's reminders, tasks, projects and Today list safely.
 
-## Authentication
+## What's inside
 
-After installation, use `/mcp` in Claude Code, select `spicybrain`, and complete the SpicyBrain OAuth flow. The plugin does not store credentials.
+| Path | Purpose |
+| --- | --- |
+| `.mcp.json` | The remote MCP server, used by both Claude Code and Codex |
+| `.claude-plugin/plugin.json` | Claude Code manifest |
+| `.codex-plugin/plugin.json` | Codex manifest |
+| `skills/spicybrain/SKILL.md` | Guidance for the model |
+| `assets/logo.png` | Icon shown in Codex |
 
-## Configuration
+## Signing in
 
-The MCP endpoint can be overridden for development by setting `SPICYBRAIN_MCP_URL` to the complete endpoint URL before starting Claude Code.
+You sign in with your SpicyBrain account the first time a tool is used. The plugin holds no credentials.
 
-## Manual skill invocation
+- Claude Code: run `/mcp`, pick `spicybrain` and sign in.
+- Codex: run `codex mcp login spicybrain` if Codex doesn't prompt you.
 
-Claude can activate the skill automatically when a request relates to SpicyBrain. It can also be invoked directly:
+To use the skill directly in Claude Code, run `/spicybrain:spicybrain`.
 
-```text
-/spicybrain:spicybrain
-```
+See the [main README](../../README.md) for install steps.
