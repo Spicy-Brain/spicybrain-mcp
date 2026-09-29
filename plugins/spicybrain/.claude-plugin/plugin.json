@@ -2,14 +2,14 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "spicybrain",
   "displayName": "SpicyBrain",
-  "version": "0.1.0",
-  "description": "Manage SpicyBrain projects, tasks, and reminders from Claude.",
+  "version": "1.0.0",
+  "description": "Manage your SpicyBrain reminders, tasks, projects and Today list from Claude.",
   "author": {
-    "name": "Spicy Brain",
-    "url": "https://github.com/Spicy-Brain"
+    "name": "Craig Jones",
+    "url": "https://spicybrain.help"
   },
-  "homepage": "https://github.com/Spicy-Brain/SpicyBrainClaudeMcp",
-  "repository": "https://github.com/Spicy-Brain/SpicyBrainClaudeMcp",
+  "homepage": "https://spicybrain.help",
+  "repository": "https://github.com/Spicy-Brain/spicybrain-mcp",
   "license": "MIT",
-  "keywords": ["spicybrain", "productivity", "tasks", "reminders", "mcp"]
+  "keywords": ["spicybrain", "adhd", "reminders", "tasks", "projects", "productivity", "mcp"]
 }
