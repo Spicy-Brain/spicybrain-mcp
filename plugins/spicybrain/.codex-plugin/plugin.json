@@ -1,0 +1,34 @@
+{
+  "name": "spicybrain",
+  "version": "1.0.0",
+  "description": "Manage your SpicyBrain reminders, tasks, projects and Today list from Codex.",
+  "author": {
+    "name": "Craig Jones",
+    "url": "https://spicybrain.help"
+  },
+  "homepage": "https://spicybrain.help",
+  "repository": "https://github.com/Spicy-Brain/spicybrain-mcp",
+  "license": "MIT",
+  "keywords": ["spicybrain", "adhd", "reminders", "tasks", "projects", "productivity", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "SpicyBrain",
+    "shortDescription": "ADHD-friendly reminders, tasks and projects",
+    "longDescription": "SpicyBrain is an ADHD-friendly app for running your life and home. Connect it to check what is due, add reminders that repeat at the right local time, break tasks into subtasks, move work across project boards and pick what goes on your Today list. You sign in with your SpicyBrain account; no API keys needed.",
+    "developerName": "Craig Jones",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://spicybrain.help",
+    "privacyPolicyURL": "https://spicybrain.help/privacy",
+    "termsOfServiceURL": "https://spicybrain.help/terms",
+    "defaultPrompt": [
+      "What's on my SpicyBrain Today list?",
+      "Remind me to take the bins out every Tuesday at 7pm.",
+      "Break my next SpicyBrain task into small steps."
+    ],
+    "brandColor": "#E2574C",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

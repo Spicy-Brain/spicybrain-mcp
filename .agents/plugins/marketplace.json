@@ -1,0 +1,20 @@
+{
+  "name": "spicybrain",
+  "interface": {
+    "displayName": "SpicyBrain"
+  },
+  "plugins": [
+    {
+      "name": "spicybrain",
+      "source": {
+        "source": "local",
+        "path": "./plugins/spicybrain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
