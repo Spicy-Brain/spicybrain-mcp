@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "spicybrain",
+  "description": "The official SpicyBrain plugin for Claude Code.",
+  "owner": {
+    "name": "Craig Jones",
+    "url": "https://spicybrain.help"
+  },
+  "plugins": [
+    {
+      "name": "spicybrain",
+      "displayName": "SpicyBrain",
+      "source": "./plugins/spicybrain",
+      "description": "Manage your SpicyBrain reminders, tasks, projects and Today list from Claude.",
+      "category": "productivity",
+      "tags": ["adhd", "reminders", "tasks", "projects", "mcp"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Spicy-Brain/spicybrain",
+  "title": "SpicyBrain",
+  "description": "ADHD-friendly reminders, tasks, projects and a Today list for your SpicyBrain account.",
+  "version": "1.0.0",
+  "websiteUrl": "https://spicybrain.help",
+  "repository": {
+    "url": "https://github.com/Spicy-Brain/spicybrain-mcp",
+    "source": "github",
+    "id": "1325469739"
+  },
+  "icons": [
+    {
+      "src": "https://spicybrain.help/web-app-manifest-512x512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spicybrain.help/mcp"
+    }
+  ]
+}
